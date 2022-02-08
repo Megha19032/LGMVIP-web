@@ -1,0 +1,88 @@
+:root{
+    --primary-color: blueviolet;
+}
+*{
+    margin: 0;
+    padding: 0;
+    background: rgb(148, 119, 214);
+    font-family: 'Lato', cursive ;
+}
+.outerBox{
+    margin-left: 30px;
+    display: flex;
+    justify-content:center ;
+    text-align: center;
+}
+.list-items-para{
+    background-color:var(--primary-color);
+    text-align: center;
+    align-items: center;
+    padding-top: 25px;
+    border: white;
+    border-radius: 10px;
+    color: white;
+    width: 500px;
+    height: 40px;
+}
+.doneBtn{
+    background-color: white;
+    color: var(--primary-color);
+    margin-left: 60px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+}
+.closeButton:hover{
+    background-color: var(--primary-color);
+    color: white;
+}
+.head-tag{
+    color: var(--primary-color);
+    margin-top: 50px;
+    margin-left: 500px;
+    font-family: 'Lato', cursive;
+    font-size: 2rem;
+}
+.water-mark{
+    color:white ;
+    margin-top: 50px;
+    margin-left: 700px;
+    font-family: 'Lato', cursive;
+    font-size: 1rem;
+}
+.entry-div{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 350px;
+}
+.text-field{
+    color: black;
+    background-color: white;
+    background-color: var(--primary-color);
+    border-style: solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 40px;
+    width: 500px;
+    font-family: 'Lato', cursive;
+    font-size: 1rem;
+    text-align: center;
+}
+.button-click{
+    cursor: pointer;
+    margin-top: 22px;
+    margin-left: 60px;
+    background-color: transparent;
+    color: var(--primary-color);
+    border-style: solid;
+    border-color: var(--primary-color);
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 1rem;
+}
+.button-click:hover{
+    background-color:var(--primary-color);
+    color: white;
+}
